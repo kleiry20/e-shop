@@ -1,0 +1,35 @@
+.btn-white {
+  background-color: white;
+  border: none;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  height: 2rem;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  /* extra */
+  margin: 0 26px;
+  border-bottom-color: white;
+}
+
+.category-card--small {
+  height: 18rem;
+  width: 22rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.category-card--medium {
+  height: 28rem;
+  width: 22rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-content: end;
+  background-size: cover;
+  cursor: pointer;
+}

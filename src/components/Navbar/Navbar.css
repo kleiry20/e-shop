@@ -1,0 +1,18 @@
+.navbar {
+  /* background-color: rgb(245, 255, 250); */
+  background-color: #f4dfb6;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1.5rem;
+  align-items: center;
+
+  .logo {
+    /* margin-left: 1rem; */
+  }
+
+  .nav-right {
+    display: flex;
+    gap: 1rem;
+  }
+}
