@@ -11,8 +11,6 @@ import Rice from "../../assets/grains/rice.jpg";
 import MilkSm from "../../assets/breakfast/milk-sm.jpg";
 import Raisins from "../../assets/breakfast/raisins.jpg";
 import Strawberry from "../../assets/fruits/strawberry.jpg";
-
-// assets - spices
 import StarAnise from "../../assets/spice/star-anise.jpg";
 import Onions from "../../assets/veggies/onions.jpg";
 import Mushrooms from "../../assets/veggies/mushrooms2.jpg";
@@ -118,7 +116,7 @@ const ProductListing = () => {
             {filteredItems &&
               filteredItems.map((item: any) => {
                 return (
-                  <div className="category-row--child" key={item.id}>
+                  <div className="category-row--child card-hover" key={item.id}>
                     <p>{item.productCategory.productCategoryName}</p>
                     <div
                       style={{
